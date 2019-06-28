@@ -1,0 +1,56 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+
+body{
+  background-image: url(./bokeh-luces-fondo-brillo_1048-8548.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 100vh;
+}
+
+.first{
+  padding: 5%;
+}
+
+#clickme{
+  background-color: azure;
+  padding: 2%;
+  border-radius: 15%;
+}
+
+.text_datos{
+  color: brown;
+  margin: 2%;
+  padding: 2%;
+}
+
+#container_datos{
+  background-color: antiquewhite;
+  margin:2%;
+}
+
+.photo{
+  border: 2px solid white;
+  width: 50%;
+  margin: 1 %;
+}
+
+@media(min-width: 200px) and (max-width: 450px) {
+  #clickme{
+    margin-top: 10%;
+    font-size: 20px;
+  }
+
+  .photo{
+    margin: 2%;
+    width: 90%;
+  }
+
+  .text_datos{
+    color:black;
+    margin: 5%;
+  }
+}
