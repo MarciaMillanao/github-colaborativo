@@ -11,3 +11,10 @@ document.getElementById('clickme').addEventListener('click', () => {
                                 Tu Apellido es: ${lastName}
                               </h2>`
 })
+
+const datos = STUDENTS.student;
+for(let i = 0; i < datos.length; i++){
+  console.log(datos[i].name);
+  console.log(datos[i].lastName);
+  console.log(datos[i].hobby);
+}
